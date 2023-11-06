@@ -1,0 +1,3620 @@
+@charset "UTF-8";
+.cal-section {
+  /**
+   * Correct `inline-block` display not defined in IE 8/9.
+   */
+  /**
+   * Prevent modern browsers from displaying `audio` without controls.
+   * Remove excess height in iOS 5 devices.
+   */
+  /**
+   * Address `[hidden]` styling not present in IE 8/9.
+   * Hide the `template` element in IE, Safari, and Firefox < 22.
+   */
+  /* ==========================================================================
+     Base
+     ========================================================================== */
+  /**
+   * 1. Set default font family to sans-serif.
+   * 2. Prevent iOS text size adjust after orientation change, without disabling
+   *    user zoom.
+   */
+  /**
+   * Remove default margin.
+   */
+  /* ==========================================================================
+     Links
+     ========================================================================== */
+  /**
+   * Remove the gray background color from active links in IE 10.
+   */
+  /**
+   * Address `outline` inconsistency between Chrome and other browsers.
+   */
+  /**
+   * Improve readability when focused and also mouse hovered in all browsers.
+   */
+  /* ==========================================================================
+     Typography
+     ========================================================================== */
+  /**
+   * Address variable `h1` font-size and margin within `section` and `article`
+   * contexts in Firefox 4+, Safari 5, and Chrome.
+   */
+  /* main h1,main h2,main h3,main h4{text-transform:capitalize;} */
+  /**
+   * Address styling not present in IE 8/9, Safari 5, and Chrome.
+   */
+  /**
+   * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+   */
+  /**
+   * Address styling not present in Safari 5 and Chrome.
+   */
+  /**
+   * Address differences between Firefox and other browsers.
+   */
+  /**
+   * Address styling not present in IE 8/9.
+   */
+  /**
+   * Correct font family set oddly in Safari 5 and Chrome.
+   */
+  /**
+   * Improve readability of pre-formatted text in all browsers.
+   */
+  /**
+   * Set consistent quote types.
+   */
+  /**
+   * Address inconsistent and variable font size in all browsers.
+   */
+  /**
+   * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+   */
+  /* ==========================================================================
+     Embedded content
+     ========================================================================== */
+  /**
+   * Remove border when inside `a` element in IE 8/9.
+   */
+  /**
+   * Correct overflow displayed oddly in IE 9.
+   */
+  /* ==========================================================================
+     Figures
+     ========================================================================== */
+  /**
+   * Address margin not present in IE 8/9 and Safari 5.
+   */
+  /* ==========================================================================
+     Forms
+     ========================================================================== */
+  /**
+   * Define consistent border, margin, and padding.
+   */
+  /**
+   * 1. Correct `color` not being inherited in IE 8/9.
+   * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+   */
+  /**
+   * 1. Correct font family not being inherited in all browsers.
+   * 2. Correct font size not being inherited in all browsers.
+   * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+   */
+  /**
+   * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+   * the UA stylesheet.
+   */
+  /**
+   * Address inconsistent `text-transform` inheritance for `button` and `select`.
+   * All other form control elements do not inherit `text-transform` values.
+   * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+   * Correct `select` style inheritance in Firefox 4+ and Opera.
+   */
+  /**
+   * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+   *    and `video` controls.
+   * 2. Correct inability to style clickable `input` types in iOS.
+   * 3. Improve usability and consistency of cursor style between image-type
+   *    `input` and others.
+   */
+  /**
+   * Re-set default cursor for disabled elements.
+   */
+  /**
+   * 1. Address box sizing set to `content-box` in IE 8/9/10.
+   * 2. Remove excess padding in IE 8/9/10.
+   */
+  /**
+   * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+   * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+   *    (include `-moz` to future-proof).
+   */
+  /**
+   * Remove inner padding and search cancel button in Safari 5 and Chrome
+   * on OS X.
+   */
+  /**
+   * Remove inner padding and border in Firefox 4+.
+   */
+  /**
+   * 1. Remove default vertical scrollbar in IE 8/9.
+   * 2. Improve readability and alignment in all browsers.
+   */
+  /* ==========================================================================
+     Tables
+     ========================================================================== */
+  /**
+   * Remove most spacing between table cells.
+   */
+  /*------------------------------------*\
+      MAIN
+  \*------------------------------------*/
+  /* global box-sizing */
+  /* html element 62.5% font-size for REM use */
+  /*     font-family: 'Nunito Sans', sans-serif;
+
+      font-family: 'Montserrat', sans-serif; */
+  /* clear */
+  /* .page h2.cont-title {
+    color:#767676;
+  } */
+  /*table*/
+  /*------------------------------------*\
+      STRUCTURE
+  \*------------------------------------*/
+  /*header .navbar-nav > li > a.SolarHeating,header .navbar-nav > li > a.SolarPower{padding:0 15px;min-height:30px;}*/
+  /*header .navbar-nav > li.current_page_item::after,header .navbar-nav > li.current-menu-ancestor::after {*/
+  /*  background: #fff;*/
+  /*}*/
+  /*header .navbar-nav > li.SolarHeating::after,header .navbar-nav > li.SolarPower::after{margin-top: 17px;}*/
+  /*------------------------------------*\
+      MISC
+  \*------------------------------------*/
+  /*------------------------------------*\
+      WORDPRESS CORE
+  \*------------------------------------*/
+  /*------------------------------------*\
+      PRINT
+  \*------------------------------------*/
+  /*testimonial carousel*/
+  /*calculator*/
+  /*.about-sec .content-block-row.brand_logo_carousel {
+    display: flex !important;
+  }*/
+  /*blog*/
+}
+.cal-section article,
+.cal-section aside,
+.cal-section details,
+.cal-section figcaption,
+.cal-section figure,
+.cal-section footer,
+.cal-section header,
+.cal-section hgroup,
+.cal-section main,
+.cal-section nav,
+.cal-section section,
+.cal-section summary {
+  display: block;
+}
+.cal-section audio,
+.cal-section canvas,
+.cal-section video {
+  display: inline-block;
+}
+.cal-section audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+.cal-section [hidden],
+.cal-section template {
+  display: none;
+}
+.cal-section html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+.cal-section body, .cal-section html {
+  margin: 0;
+  overflow-x: hidden;
+}
+.cal-section a {
+  background: transparent;
+}
+.cal-section a:focus {
+  outline: thin dotted;
+}
+.cal-section a:active,
+.cal-section a:hover {
+  outline: 0;
+}
+.cal-section h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.cal-section abbr[title] {
+  border-bottom: 1px dotted;
+}
+.cal-section b,
+.cal-section strong {
+  font-weight: bold;
+}
+.cal-section dfn {
+  font-style: italic;
+}
+.cal-section hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+.cal-section mark {
+  background: #ff0;
+  color: #000;
+}
+.cal-section code,
+.cal-section kbd,
+.cal-section pre,
+.cal-section samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+.cal-section pre {
+  white-space: pre-wrap;
+}
+.cal-section q {
+  quotes: "“" "”" "‘" "’";
+}
+.cal-section small {
+  font-size: 80%;
+}
+.cal-section sub,
+.cal-section sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.cal-section sup {
+  top: -0.5em;
+}
+.cal-section sub {
+  bottom: -0.25em;
+}
+.cal-section img {
+  border: 0;
+}
+.cal-section svg:not(:root) {
+  overflow: hidden;
+}
+.cal-section figure {
+  margin: 0;
+}
+.cal-section fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+.cal-section legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+.cal-section button,
+.cal-section input,
+.cal-section select,
+.cal-section textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 2 */
+  margin: 0; /* 3 */
+}
+.cal-section button,
+.cal-section input {
+  line-height: normal;
+}
+.cal-section button,
+.cal-section select {
+  text-transform: none;
+}
+.cal-section button,
+.cal-section html input[type=button],
+.cal-section input[type=reset],
+.cal-section input[type=submit] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+.cal-section button[disabled],
+.cal-section html input[disabled] {
+  cursor: default;
+}
+.cal-section input[type=checkbox],
+.cal-section input[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+.cal-section input[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+.cal-section input[type=search]::-webkit-search-cancel-button,
+.cal-section input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.cal-section button::-moz-focus-inner,
+.cal-section input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.cal-section textarea {
+  overflow: auto; /* 1 */
+  vertical-align: top; /* 2 */
+}
+.cal-section table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.cal-section *,
+.cal-section *:after,
+.cal-section *:before {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.cal-section html {
+  font-size: 62.5%;
+}
+.cal-section body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+}
+.cal-section body main {
+  color: #767676;
+}
+.cal-section .preloader {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+.cal-section .preloader > div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.cal-section .clear:before,
+.cal-section .clear:after {
+  content: " ";
+  display: table;
+}
+.cal-section .clear:after {
+  clear: both;
+}
+.cal-section .clear {
+  *zoom: 1;
+}
+.cal-section img {
+  max-width: 100%;
+  vertical-align: bottom;
+  height: auto;
+}
+.cal-section a {
+  color: #444;
+  text-decoration: none;
+}
+.cal-section a:hover {
+  color: #8f8f8f;
+}
+.cal-section a:focus {
+  outline: 0;
+}
+.cal-section a:hover,
+.cal-section a:active {
+  outline: 0;
+}
+.cal-section input:focus {
+  outline: 0;
+  border: 1px solid #04A4CC;
+}
+.cal-section ul {
+  padding-left: 15px;
+}
+.cal-section h1 {
+  font-family: "Raleway", sans-serif;
+}
+.cal-section h1, .cal-section h2, .cal-section h3 {
+  color: #047d22;
+  font-family: "Raleway", sans-serif;
+}
+.cal-section section {
+  clear: both;
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.cal-section table {
+  font-size: 14px;
+}
+.cal-section th {
+  font-size: 16px;
+  text-align: center;
+  height: 40px; /* border:1px solid #C7C6C6; */
+  border: none;
+}
+.cal-section td {
+  min-width: 24px;
+  height: 40px;
+  border: none;
+  padding: 5px;
+}
+.cal-section .single-post .page-heading {
+  display: none;
+}
+.cal-section .container-fluid {
+  clear: both;
+}
+.cal-section .no-x-pading {
+  padding-left: 0;
+  padding-right: 0;
+}
+.cal-section .center-text {
+  text-align: center;
+}
+.cal-section .nav > li > a:hover, .cal-section .nav > li > a:focus {
+  text-decoration: none;
+  background: none;
+}
+.cal-section .link-btn .y-arrow, .cal-section .link-btn:hover .y-arrow, .cal-section .link-btn, .cal-section .link-btn:hover, .cal-section .wpcf7-form-control.wpcf7-submit, .cal-section .wpcf7-form-control.wpcf7-submit:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.cal-section .item-step-block, .cal-section .item-step-block:hover {
+  -webkit-transition: width 0.4s ease-in-out;
+  -moz-transition: width 0.4s ease-in-out;
+  -o-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.cal-section .mid-size-font {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+.cal-section .tab-pane-inner .mid-size-font {
+  color: #5f5f5f;
+  font-weight: 600;
+  clear: both;
+}
+.cal-section .home h2 {
+  font-size: 1.7em;
+  font-weight: 600;
+}
+.cal-section .greentd {
+  background: #038181;
+  color: #fff;
+  font-size: 18px;
+  text-align: left;
+}
+.cal-section .tdr {
+  border-bottom: 2px solid #038181 !important;
+  color: #038181;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cal-section .tdr img {
+  margin: 0 !important;
+}
+.cal-section .clear::before, .cal-section .clear::after, .cal-section header::before, .cal-section header::after {
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
+.cal-section .left {
+  float: left;
+}
+.cal-section .right {
+  float: right;
+}
+.cal-section .clear {
+  clear: both;
+}
+.cal-section .no-top-margin {
+  margin-top: 0;
+}
+.cal-section .no-x-padding, .cal-section .no-x-pading, .cal-section .content-block-row {
+  padding-left: 0;
+  padding-right: 0;
+}
+.cal-section .icon-logo .path1:before {
+  content: "\e900";
+  color: #fcce36;
+}
+.cal-section .icon-logo .path2:before {
+  content: "\e901";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path3:before {
+  content: "\e902";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path4:before {
+  content: "\e903";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path5:before {
+  content: "\e904";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path6:before {
+  content: "\e905";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path7:before {
+  content: "\e906";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path8:before {
+  content: "\e907";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path9:before {
+  content: "\e908";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path10:before {
+  content: "\e909";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path11:before {
+  content: "\e90a";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path12:before {
+  content: "\e90b";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path13:before {
+  content: "\e90c";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path14:before {
+  content: "\e90d";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path15:before {
+  content: "\e90e";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path16:before {
+  content: "\e90f";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path17:before {
+  content: "\e910";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path18:before {
+  content: "\e911";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path19:before {
+  content: "\e912";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path20:before {
+  content: "\e913";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path21:before {
+  content: "\e914";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path22:before {
+  content: "\e915";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path23:before {
+  content: "\e916";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path24:before {
+  content: "\e917";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path25:before {
+  content: "\e918";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path26:before {
+  content: "\e919";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path27:before {
+  content: "\e91a";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path28:before {
+  content: "\e91b";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path29:before {
+  content: "\e91c";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path30:before {
+  content: "\e91d";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path31:before {
+  content: "\e91e";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path32:before {
+  content: "\e91f";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path33:before {
+  content: "\e920";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path34:before {
+  content: "\e921";
+  color: #fff;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path35:before {
+  content: "\e922";
+  color: #fff;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path36:before {
+  content: "\e923";
+  color: #fff;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path37:before {
+  content: "\e924";
+  color: #fff;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path38:before {
+  content: "\e925";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section .icon-logo .path39:before {
+  content: "\e926";
+  color: #fcce36;
+  margin-left: -3.4833984375em;
+}
+.cal-section header {
+  background: #038181;
+  padding: 15px 0px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200;
+}
+.cal-section .header-inner-wrapper {
+  width: 90%;
+  float: none;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.cal-section .header-inner-wrapper > div {
+  padding: 0;
+}
+.cal-section header .logo img {
+  max-width: 130px;
+}
+.cal-section #header-menu-inner {
+  display: flex;
+  justify-content: center;
+}
+.cal-section header .navbar-nav > li > a, .cal-section footer .navbar-nav > li > a {
+  text-transform: initial;
+}
+.cal-section header .navbar-nav > li > a {
+  color: #fff;
+  text-transform: initial;
+  font-weight: 400;
+}
+.cal-section header .navbar-nav > li > a {
+  padding: 8px 12px 12px;
+  font-size: 15px;
+}
+.cal-section header .navbar-nav > li > a.SolarHeating img, .cal-section header .navbar-nav > li > a.SolarPower img {
+  width: 120px;
+  margin-top: 9px;
+  float: left;
+}
+.cal-section header .navbar-nav > li > a.SolarHeating img {
+  width: 128px;
+}
+.cal-section header .navbar-nav > li::after {
+  height: 4px;
+  width: 100%;
+  float: left;
+  display: block;
+  content: "";
+  background: #038181;
+  margin-top: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.cal-section header .navbar-nav > li:hover {
+  background: #066b6b;
+}
+.cal-section header .navbar-nav .current-menu-item span {
+  color: #fcce35;
+}
+.cal-section header .navbar-nav > li > a:hover {
+  background: none;
+}
+.cal-section #upper-section, .cal-section #upper-section a {
+  color: #fccf35;
+  font-weight: 600;
+  text-align: right;
+}
+.cal-section #upper-section a:hover {
+  text-decoration: none;
+  color: #ffe48a;
+}
+.cal-section #upper-section a {
+  padding: 0 15px;
+}
+.cal-section .menu-btn {
+  background: none;
+  border: none;
+  padding: 4px;
+  float: none;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+.cal-section .item.bgimg.cycle-slide {
+  float: left;
+  width: 100%;
+}
+.cal-section .item.bgimg.cycle-slide.cycle-sentinel {
+  visibility: visible !important;
+}
+.cal-section .footer-menu {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.cal-section .footer-menu-sec.container-fluid {
+  background: #036868;
+  padding: 2rem 0;
+}
+.cal-section .footer-logo img {
+  width: 268px;
+}
+.cal-section footer {
+  float: left;
+  width: 100%;
+  background: #038181;
+  color: #fff;
+}
+.cal-section footer a {
+  color: #fff;
+}
+.cal-section Footer a:hover {
+  text-decoration: none;
+  color: #7bb0b0;
+}
+.cal-section footer .flex-holder, .cal-section .content-block-row .flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.cal-section .footer-info-sec {
+  width: 90%;
+}
+.cal-section .footer-info-sec > div {
+  padding: 5rem 15px;
+}
+.cal-section .footer-info-sec > div.footer-logo {
+  padding: 5rem 0;
+}
+.cal-section .col-4-flex {
+  float: left;
+}
+.cal-section .flex-holder i {
+  margin: 2px 12px 0 0;
+}
+.cal-section .footer-heading {
+  color: #7bb0b0;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+.cal-section .footer-bottom {
+  clear: left;
+  float: left;
+  width: 100%;
+  border-top: 1px solid #5eaeae;
+  padding: 20px;
+}
+.cal-section .menu-icon {
+  float: right;
+  width: 40px;
+  margin-top: 3px;
+}
+.cal-section .icon-bar {
+  float: right;
+  width: 25px;
+  height: 2px;
+  background: #fff;
+  margin-bottom: 6px;
+  clear: left;
+  display: block;
+}
+.cal-section .sub-menu {
+  display: none;
+  top: 140%;
+  position: absolute;
+  left: 0;
+  padding: 0;
+  width: 100%;
+  background: #035959;
+}
+.cal-section header li.menu-item-has-children:hover .sub-menu {
+  top: 100%;
+}
+.cal-section .nav > li.menu-item-has-children {
+  display: flex;
+  flex-flow: row-reverse;
+}
+.cal-section .menu-item i {
+  color: #fff;
+}
+.cal-section .sub-menu li {
+  float: left;
+  width: 100%;
+  background: #027070;
+  margin-bottom: 1px;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 1px;
+}
+.cal-section .sub-menu li.current_page_item {
+  background: #185757;
+}
+.cal-section .sub-menu li:hover {
+  background: #026464;
+}
+.cal-section .sub-menu li a {
+  padding: 8px 0;
+  color: #fff;
+  float: left;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+}
+.cal-section .sub-menu li a:hover {
+  text-decoration: none;
+}
+.cal-section .menu-item i.menu-up {
+  display: none;
+}
+.cal-section .menu-item .caret-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+.cal-section .page-banner, .cal-section #home-banner-carousel .item, .cal-section #home-banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.cal-section .page-banner img {
+  width: 100%;
+}
+.cal-section .page-banner .owl-item {
+  float: left;
+}
+.cal-section #home-banner, .cal-section .home-desktop-carousel {
+  max-height: 100vh;
+}
+.cal-section #home-banner-carousel .item img {
+  width: 100%;
+}
+.cal-section .banner-text-holder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+.cal-section .banner-text {
+  width: 40%;
+  margin-left: 5%;
+}
+.cal-section .banner-lg-text {
+  font-size: 2.4em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  width: 100%;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+.cal-section .banner-description {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+.cal-section .link-btn, .cal-section .inquire-form .wpcf7-submit {
+  background: #038181;
+  padding: 10px 20px;
+  color: #fff;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cal-section .wpcf7-form-control.wpcf7-submit {
+  width: 200px;
+  float: none;
+  margin: 3rem auto;
+  height: 42px;
+  border: none;
+  border-radius: 5px;
+  background: url(../images/sprite.png) 145px 7px #047d22;
+  padding-right: 50px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.cal-section .wpcf7-form-control.wpcf7-submit:hover {
+  background-position: 150px 7px;
+  background-color: #047d22 !important;
+}
+.cal-section .link-btn.yellow {
+  background: #fbcf35;
+  color: #047d22;
+  font-weight: 600;
+}
+.cal-section .link-btn.center-align {
+  margin: 2rem auto 3rem;
+  max-width: 185px;
+  clear: both;
+}
+.cal-section .banner-link {
+  float: left;
+}
+.cal-section .link-btn .y-arrow {
+  height: 26px;
+  width: 28px;
+  float: right;
+  display: block;
+  margin-left: 10px;
+}
+.cal-section .y-arrow i {
+  float: right;
+  font-size: 26px;
+  color: #fccf35;
+}
+.cal-section .link-btn:hover {
+  padding-right: 15px;
+  background: #047d22;
+  color: #fff;
+  text-decoration: none;
+}
+.cal-section .link-btn:hover .y-arrow {
+  margin-left: 15px;
+}
+.cal-section .side-triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 278px 100px 0 0;
+  border-color: #007bff transparent transparent transparent;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  z-index: 20;
+}
+.cal-section .side-triangle.right-side {
+  left: 100%;
+}
+.cal-section .side-triangle.left-side {
+  right: 100%;
+  left: unset;
+  top: unset;
+  bottom: 0;
+  transform: rotate(180deg);
+}
+.cal-section .side-triangle.right-inner-top {
+  border-width: 277px 0 0 100px;
+  left: unset;
+  right: 0;
+}
+.cal-section .side-triangle.left-inner-bottom {
+  border-width: 277px 0 0 100px;
+  left: 0;
+  right: unset;
+  top: unset;
+  bottom: 0;
+}
+.cal-section .side-triangle.right-side.left-inner-bottom {
+  right: unset;
+  left: 0;
+  top: unset;
+  bottom: 0;
+  transform: rotate(180deg);
+}
+.cal-section .double-side-img {
+  padding: 0;
+}
+.cal-section .double-side-img-cont {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column;
+}
+.cal-section .double-side-img-cont .dsi-block-title, .cal-section .double-side-img-cont .link-btn {
+  align-self: center;
+}
+.cal-section .double-side-img-cont .dsi-block-title {
+  margin: 8% 0 20px;
+  font-weight: 700;
+}
+.cal-section .double-side-img-cont .link-btn {
+  margin-bottom: 8%;
+}
+.cal-section .double-side-img-cont .link-btn img {
+  width: 128px;
+}
+.cal-section .green-bg {
+  background: #047d22;
+  color: #fff;
+}
+.cal-section .green-bg h2 {
+  color: #fbcf35;
+}
+.cal-section .img-icon-block {
+  padding: 0 5rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif !important;
+}
+.cal-section .img-icon-block h4 {
+  font-weight: 700;
+  line-height: normal;
+}
+.cal-section .img-icon-block-txt {
+  display: block;
+  margin: 2rem 0 4rem;
+}
+.cal-section .owl-item {
+  float: left;
+}
+.cal-section .step-items-holder {
+  overflow: hidden;
+  background: #047d22;
+}
+.cal-section .item-step-img {
+  background: #fbcf35;
+  padding: 5px 2px;
+}
+.cal-section .l-icon-holder {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.cal-section .step-items-holder .owl-item:last-child .step-arrow {
+  display: none !important;
+}
+.cal-section .item-step-block {
+  margin-bottom: 2rem;
+  background: #047d22;
+  overflow: hidden;
+  cursor: pointer;
+}
+.cal-section .item-step-block.default {
+  padding-bottom: 4rem;
+}
+.cal-section .item-step-block.active.default {
+  width: 33.3333%;
+  background: #fccf35;
+  padding-bottom: 1rem;
+}
+.cal-section .item-step-block-txt {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  color: #fff;
+  width: 92%;
+  margin: 0 auto;
+  float: none;
+}
+.cal-section .step-arrow-holder {
+  display: flex;
+  align-items: start;
+}
+.cal-section .step-arrow {
+  width: 24px;
+}
+.cal-section .item-text {
+  width: 60%;
+}
+.cal-section .item-step-block.default .item-step-block-txt {
+  padding: 0 0;
+  display: none;
+  min-height: 10rem;
+}
+.cal-section .item-step-block.default.active .item-step-block-txt {
+  padding: 2rem 10px;
+  display: block;
+}
+.cal-section .item-step-block.default .item-step-inner {
+  clear: both;
+  width: 305px;
+  font-size: 14px;
+  margin-left: -68%;
+  clear: both;
+}
+.cal-section .item-step-block.active .item-step-inner {
+  margin: 0 auto;
+  float: none;
+}
+.cal-section .item-step-block.active .item-step-block-txt {
+  color: #fff;
+}
+.cal-section .step-items-holder > .col-lg-6, .cal-section .step-items-holder > .col-lg-6 {
+  float: none;
+  margin: 0 auto;
+}
+.cal-section .step-items-holder > .col-lg-6 .item-step-img, .cal-section .step-items-holder > .col-lg-6 .item-step-block-txt {
+  width: 50%;
+  float: left;
+}
+.cal-section .owl-nav.disabled {
+  display: none;
+}
+.cal-section .item-step {
+  color: #fccf35;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 1.4em;
+  font-weight: 700;
+  float: left;
+  margin: 0;
+}
+.cal-section .item-step-block.active .item-step {
+  color: #047d22;
+  border: 2px solid #047d22;
+}
+.cal-section .cal-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.cal-section .text-only-block {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.cal-section .flex-cent-cont {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column;
+}
+.cal-section .tab-titles li a {
+  background: #08a5a5;
+  color: #fff;
+  font-size: 21px;
+  text-transform: uppercase;
+  width: 100%;
+  float: left;
+}
+.cal-section .tab-titles li a.text-only {
+  padding-bottom: 10px;
+}
+.cal-section .tab-titles li.active > a, .cal-section .tab-titles li.active,
+.cal-section .tab-titles li.active:hover > a, .cal-section .tab-titles li.active:hover,
+.cal-section .tab-titles li.active > a:focus {
+  background: #fccf35;
+  color: #fff;
+  border: none !important;
+  outline: none;
+  border-radius: 3px;
+}
+.cal-section .tab-titles li.active.active-default a {
+  background: #047d22;
+}
+.cal-section .tab-titles li.active.active-default > a > img.tab-default-img {
+  display: table;
+}
+.cal-section .tab-titles li.active.active-default > a > img.tab-active-img {
+  display: none;
+}
+.cal-section .tab-titles li > a > img.tab-active-img {
+  display: none;
+}
+.cal-section .tab-titles li.active > a > img.tab-default-img {
+  display: none;
+}
+.cal-section .tab-titles li.active > a > img.tab-active-img {
+  display: table;
+}
+.cal-section .tab-titles li:hover > a {
+  background: #047d22;
+}
+.cal-section .nav-tabs > li > a > img {
+  margin: 2px auto;
+  width: 164px;
+}
+.cal-section .tab-content {
+  background: #f2f0f0;
+  width: 100%;
+  float: left;
+}
+.cal-section .tab-pane-inner {
+  display: table;
+  margin: 4rem auto 0;
+  width: 80%;
+}
+.cal-section .wpcf7-form > div {
+  padding: 0;
+  float: left;
+  margin-bottom: 10px;
+}
+.cal-section .wpcf7-form > div.frm-sm {
+  width: 20%;
+  padding-right: 15px;
+}
+.cal-section .wpcf7-form > div.frm-md {
+  width: 80%;
+}
+.cal-section .wpcf7-form > div.container-fluid, .cal-section .wpcf7-form input, .cal-section .wpcf7-form select {
+  width: 100%;
+  min-height: 32px;
+}
+.cal-section .wpcf7-form-control.wpcf7-not-valid {
+  border-color: #f00;
+}
+.cal-section .wpcf7-response-output, .cal-section div.wpcf7-validation-errors {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  float: left;
+  padding: 10px;
+}
+.cal-section .wpcf7-form textarea {
+  width: 100%;
+  height: 5rem;
+}
+.cal-section .wpcf7-form input, .cal-section .wpcf7-form select, .cal-section .wpcf7-form textarea {
+  padding: 0 10px;
+}
+.cal-section .wpcf7-form select {
+  min-height: unset;
+  padding: 4px 0;
+}
+.cal-section .wpcf7-form-control {
+  border: 1px solid #cecdcd;
+}
+.cal-section .wpcf7-form-control-wrap.radio-preasure .wpcf7-form-control.wpcf7-radio {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  border: none;
+}
+.cal-section .wpcf7-form-control.wpcf7-radio .wpcf7-list-item {
+  clear: left;
+  float: left;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  min-width: 158px;
+}
+.cal-section .wpcf7-form-control.wpcf7-radio input {
+  max-width: 20px;
+  width: auto;
+  margin: 0;
+}
+.cal-section .wpcf7-form-control.wpcf7-radio .wpcf7-list-item-label {
+  margin-left: 10px;
+}
+.cal-section .cal-section .wpcf7-form-control.wpcf7-submit {
+  margin-bottom: 0;
+}
+.cal-section .custom-handle.ui-slider-handle {
+  width: 3em;
+  height: 1.6em;
+  top: 50%;
+  margin-top: -0.8em;
+  text-align: center;
+  line-height: 1.6em;
+  background: #047d22;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+.cal-section .custom-handle.ui-slider-handle:focus {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+.cal-section .dyn-slider {
+  float: left;
+  width: 92%;
+  background: #c7c6c6;
+  margin: 4rem 0;
+}
+.cal-section .sec-5-logo {
+  float: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cal-section .flex-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 0 1rem;
+}
+.cal-section .flex-list img {
+  margin: 0 15px 0 0;
+}
+.cal-section #breadcrumb {
+  padding: 2rem 0;
+}
+.cal-section ul.breadcrumbs {
+  float: left;
+  padding: 0;
+  margin-bottom: 0px;
+}
+.cal-section .breadcrumbs li {
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+}
+.cal-section .breadcrumbs li a:hover, .cal-section .breadcrumbs li a:focus {
+  text-decoration: none;
+}
+.cal-section .container-fluid, .cal-section .gray-box-section, .cal-section .container-fluid.sec-heading-wrapper {
+  padding: 0;
+}
+.cal-section .page-icon-section, .cal-section .page-icon-section.container-fluid {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.cal-section .page-icon-section .icon-set-holder {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cal-section .page-icon-section2 {
+  background: #ffce40;
+}
+.cal-section .page-icon-section2 .img-icon-block {
+  padding: 0 2rem;
+  margin-bottom: 20px;
+}
+.cal-section .page-icon-section2 .img-icon {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cal-section .page-icon-section2 .img-icon-block img {
+  max-width: initial;
+  max-height: 90px;
+  width: auto;
+}
+.cal-section .page-icon-section2.container-fluid {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.cal-section .page-icon-section2 .img-icon-block h4 {
+  color: #047d22;
+}
+.cal-section .page-icon-section2 .icon-carousel.owl-carousel .owl-nav button.owl-next {
+  background-image: url(../images/arrow-right-v2.png);
+  right: -20px !important;
+}
+.cal-section .page-icon-section2 .icon-carousel.owl-carousel .owl-nav button.owl-prev {
+  background-image: url(../images/arrow-left-v2.png);
+  left: -20px !important;
+}
+.cal-section .page-icon-section2 .l-icon-holder {
+  justify-content: center;
+}
+.cal-section .commitment h2 {
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.cal-section .mission, .cal-section .vision {
+  padding-top: 30px;
+}
+.cal-section .vision {
+  padding-bottom: 30px;
+}
+.cal-section .mission h3, .cal-section .vision h3 {
+  margin-top: 0px;
+}
+.cal-section .mission .icon-col, .cal-section .vision .icon-col {
+  max-width: 200px;
+  min-width: 160px;
+  text-align: center;
+}
+.cal-section .mission .icon-col img, .cal-section .vision .icon-col img {
+  width: 80px;
+}
+.cal-section .founder {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.cal-section #page-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 67px;
+}
+.cal-section .page h1 {
+  font-size: 2.9em;
+}
+.cal-section .page-title-holder {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  padding-left: 8%;
+}
+.cal-section .page-title-holder.white h1, .cal-section .page-title-holder.white .cus-heading {
+  color: #fff;
+}
+.cal-section .page h1 {
+  font-weight: 700;
+}
+.cal-section .page h2, .cal-section .page h3 {
+  font-weight: 700;
+}
+.cal-section .gray-box-section {
+  background: #ebebeb;
+  padding: 1rem 0 3rem;
+}
+.cal-section .two-col-row {
+  padding: 2rem 0;
+}
+.cal-section .two-col-row .img-block {
+  float: left;
+  width: 100%;
+  margin: 0 0 2rem;
+}
+.cal-section .two-col-row .img-block img {
+  width: 100%;
+}
+.cal-section .two-col-parent > div.flex-container:nth-child(2) {
+  justify-content: right;
+}
+.cal-section .two-col-parent {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.cal-section .two-col-parent > div {
+  padding: 0;
+}
+.cal-section .acc-title-bar {
+  border-top: 1px solid #eee;
+}
+.cal-section .accordion.ui-accordion {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 2rem;
+}
+.cal-section .acc-title-bar h3 {
+  margin: 1rem 0;
+  font-weight: 300;
+  color: #000;
+}
+.cal-section .ui-accordion .ui-accordion-content {
+  background: #f8f8f8;
+}
+.cal-section .ui-accordion-header-icon.ui-icon {
+  float: right;
+  height: 30px;
+  width: 30px;
+  background: url(../images/sprite.png) -5px -48px;
+  margin: 5px 0;
+}
+.cal-section .ui-accordion-header-active .ui-accordion-header-icon.ui-icon {
+  background: url(../images/sprite.png) -5px -84px;
+}
+.cal-section .page-form .wpcf7-form .submit-btn-holder {
+  height: 14rem;
+}
+.cal-section .enq-form-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.cal-section .grid-holder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cal-section .grid-holder.remove-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: auto;
+}
+.cal-section .grid-img img, .cal-section .grid-img picture {
+  float: left;
+  width: 100%;
+}
+.cal-section .grid-txt-descript {
+  margin: 1rem 0;
+  clear: both;
+  float: left;
+}
+@supports not (flex-wrap: wrap) {
+  .cal-section .grid-holder {
+    display: block;
+  }
+  .cal-section .grid-holder .grid-block {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+.cal-section .grid-block {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.cal-section .grid-block-inner {
+  border: 1px solid #eee;
+  padding: 0;
+  border-bottom: 8px solid #047d22;
+}
+.cal-section .grid-elmt-info {
+  padding: 15px;
+}
+.cal-section .grid-elmt {
+  width: 100%;
+  float: left;
+  margin: 2px 0 3px;
+}
+.cal-section .grid-elmt.grid-name {
+  font-weight: 700;
+}
+.cal-section .grid-txt {
+  display: block;
+  float: left;
+  clear: left;
+}
+.cal-section .grid-txt-inner {
+  display: flex;
+}
+.cal-section .grid-link {
+  color: #047d22;
+  font-weight: 700;
+}
+.cal-section .quote-up, .cal-section .quote-down {
+  background: #eee;
+  height: 20px;
+  display: block;
+  padding: 0 15px;
+  background: url(../images/sprite.png) -8px -117px;
+}
+.cal-section .quote-up {
+  align-self: flex-start;
+}
+.cal-section .quote-down {
+  align-self: flex-end;
+  background-position: -1px -147px;
+}
+.cal-section .scroll-btn {
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.cal-section .arrow {
+  background: url(../images/arrow-d.png) no-repeat;
+  height: 20px;
+  width: 30px;
+  float: none;
+  margin: 0 auto;
+  display: block;
+}
+.cal-section .arrow.mid, .cal-section .arrow.bot {
+  margin-top: -6px;
+}
+.cal-section .scroll-btn {
+  bottom: 20px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+.cal-section .show-read-more .more-text {
+  display: none;
+}
+.cal-section .owl-carousel .owl-item .desktop_none {
+  display: none;
+}
+.cal-section .d-d-none {
+  display: none !important;
+}
+@media only screen and (max-width: 767px) {
+  .cal-section .banner-lg-text {
+    margin-top: -30px;
+    font-size: 2em;
+  }
+  .cal-section .banner-link {
+    margin-top: -20px;
+  }
+  .cal-section #upper-section {
+    display: none;
+  }
+  .cal-section #upper-section a {
+    padding: 10px 0px;
+    top: 5px;
+    position: relative;
+    white-space: nowrap;
+  }
+  .cal-section .navbar-nav {
+    margin: 2.5px -15px;
+  }
+  .cal-section .header-inner-wrapper {
+    justify-content: space-between;
+  }
+  .cal-section header {
+    padding: 12px 0px !important;
+  }
+  .cal-section .owl-carousel .owl-item .mobile_none, .cal-section .cat-filter {
+    display: none;
+  }
+  .cal-section .owl-carousel .owl-item .desktop_none {
+    display: block;
+  }
+  .cal-section .commercial-testimonial.owl-carousel .owl-item img {
+    max-width: 100% !important;
+  }
+  .cal-section .mid-size-font {
+    font-size: 14px;
+  }
+  .cal-section .tab-pane-inner {
+    width: 100%;
+  }
+  .cal-section .page-title-holder {
+    display: block;
+    text-align: center;
+    padding: 0px !important;
+  }
+  .cal-section .page #main-content p, .cal-section .page #main-content h1, .cal-section .page #main-content h2, .cal-section .page #main-content h3 {
+    text-align: center;
+  }
+  .cal-section .page #main-content table p {
+    text-align: unset;
+  }
+  .cal-section .page #main-content ul {
+    padding-left: 15px;
+  }
+  .cal-section .page #main-content ul.nav-tabs {
+    padding: 0;
+  }
+  .cal-section .page-title-holder .cus-heading h1 {
+    margin: 5rem 0;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .cal-section .grid-holder {
+    display: block;
+    overflow: hidden;
+    height: unset;
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+    flex-direction: unset;
+    -webkit-box-pack: unset;
+    -webkit-justify-content: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
+    -webkit-flex-wrap: unset;
+    -ms-flex-wrap: unset;
+    flex-wrap: unset;
+    -webkit-box-align: unset;
+    -webkit-align-items: unset;
+    -ms-flex-align: unset;
+    align-items: unset;
+    -webkit-align-content: unset;
+    -ms-flex-line-pack: unset;
+    align-content: unset;
+  }
+  .cal-section .double-side-img-cont {
+    position: relative;
+    left: unset;
+    top: unset;
+    margin: 0;
+  }
+  .cal-section .grid-holder, .cal-section .grid-holder.remove-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 0;
+  }
+  .cal-section .grid-block {
+    padding: 0;
+  }
+  .cal-section .grid-elmt-info {
+    margin: 1rem 0;
+    padding: 0;
+  }
+  .cal-section .two-col-parent {
+    flex-direction: column;
+  }
+  .cal-section .wpcf7-form-control.wpcf7-submit {
+    display: table;
+  }
+  .cal-section .page h2 {
+    font-size: 24px;
+  }
+  .cal-section .page h3 {
+    font-size: 22px;
+  }
+  .cal-section .table > thead > tr > th, .cal-section .table > tbody > tr > th, .cal-section .table > tfoot > tr > th, .cal-section .table > thead > tr > td, .cal-section .table > tbody > tr > td, .cal-section .table > tfoot > tr > td {
+    padding: 2px;
+    text-align: center;
+  }
+  .cal-section .tab-content > .active {
+    display: block;
+    float: left;
+  }
+  .cal-section .tab-titles li.active > a img {
+    opacity: 1;
+  }
+  .cal-section .wpcf7-form-control-wrap.radio-preasure .wpcf7-form-control.wpcf7-radio {
+    flex-direction: column;
+  }
+  .cal-section .page-icon-section2.container-fluid {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .cal-section .brand_logo_carousel {
+    max-height: 280px;
+  }
+  .cal-section .text-xs-center {
+    text-align: center !important;
+  }
+  .cal-section .m-d-none {
+    display: none !important;
+  }
+  .cal-section .d-d-none {
+    display: block !important;
+  }
+  .cal-section #inverter_sync2 .active .item, .cal-section #hybrid_inverter_sync2 .active .item, .cal-section #battery_sync2 .active .item {
+    border-bottom: 6px #047d22 solid;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .cal-section #inverter_sync2 .active .item, .cal-section #hybrid_inverter_sync2 .active .item, .cal-section #battery_sync2 .active .item {
+    border-bottom: 6px #047d22 solid;
+  }
+  .cal-section .banner-text-holder {
+    align-items: flex-start;
+  }
+  .cal-section .banner-text {
+    padding-top: 27%;
+  }
+  .cal-section .recent-article.owl-carousel .owl-nav button.owl-prev {
+    left: -36px !important;
+  }
+  .cal-section .recent-article.owl-carousel .owl-nav button.owl-next {
+    right: -36px !important;
+  }
+  .cal-section .commercial-testimonial p {
+    padding-right: 0px !important;
+  }
+  .cal-section .owl-carousel .owl-nav button.owl-next {
+    right: 15px !important;
+  }
+  .cal-section .owl-carousel .owl-nav button.owl-prev {
+    left: 15px !important;
+  }
+  .cal-section .header-inner-wrapper {
+    width: 96%;
+    float: none;
+    margin: 0 auto;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .cal-section .two-col-parent {
+    flex-direction: column;
+  }
+  .cal-section .header-inner-wrapper > * {
+    margin: 0 !important;
+  }
+  .cal-section #upper-section a {
+    font-size: 18px;
+  }
+  .cal-section .item-step-inner {
+    width: 80%;
+    margin: 2rem auto;
+    float: none;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .cal-section html.active-menu {
+    overflow: hidden;
+  }
+  .cal-section .menu-close-btn {
+    margin-top: 8px;
+    float: right;
+    padding-right: 15px;
+  }
+  .cal-section .testimonials h1.page-heading {
+    color: #038181;
+  }
+  .cal-section .no-x-pading.mob-x-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .cal-section body {
+    font-size: 14px;
+  }
+  .cal-section #header-menu-inner {
+    align-items: unset;
+    justify-content: unset;
+    text-align: left;
+    display: block;
+  }
+  .cal-section #header-menu {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background: #047d22;
+    left: 0;
+    top: 0;
+  }
+  .cal-section #upper-section {
+    margin: 10px 0 5px;
+  }
+  .cal-section header .nav > li {
+    padding: 10px;
+    background: #047d22;
+    margin: 5px 0;
+    width: 100%;
+    float: left;
+  }
+  .cal-section header .sub-menu {
+    float: left;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    top: unset;
+    left: unset;
+  }
+  .cal-section .menu-item-has-children .caret-wrapper {
+    float: right;
+    width: 14%;
+    padding: 19px 0;
+    background: #047d22;
+  }
+  .cal-section .nav > li.menu-item-has-children {
+    display: block;
+    flex-flow: unset;
+    padding: 0;
+  }
+  .cal-section header .navbar-nav > li.current_page_item {
+    background: #047d22;
+  }
+  .cal-section .menu-item-has-children > a {
+    float: right;
+    width: 86%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .cal-section .sub-menu li a {
+    float: left;
+    padding: 15px 15px;
+    width: 100%;
+    color: #fff;
+  }
+  .cal-section header .navbar-nav > li.menu-item-has-children > a {
+    width: 80%;
+    padding-top: 16px;
+    padding-left: 26px;
+    float: left;
+  }
+  .cal-section .banner-text {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .cal-section .page-title-holder {
+    align-items: center;
+    justify-content: space-around;
+    display: block;
+    padding-top: 21%;
+  }
+  .cal-section .content-block-row {
+    padding: 0 15px;
+  }
+  .cal-section .step-items-holder > .col-lg-6 .item-step-img, .cal-section .step-items-holder > .col-lg-6 .item-step-block-txt {
+    width: 100%;
+  }
+  .cal-section #breadcrumb {
+    padding: 2rem 15px;
+  }
+  .cal-section footer .nav > li {
+    text-align: center;
+    position: relative;
+    display: block;
+    clear: left;
+    float: left;
+    width: 100%;
+  }
+  .cal-section footer .menu-item-has-children > a {
+    width: 100%;
+    padding: 15px;
+  }
+  .cal-section .footer-bottom > div {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .cal-section .item-step-block-txt {
+    color: #fff;
+  }
+  .cal-section .side-triangle {
+    display: none;
+  }
+  .cal-section table {
+    font-size: 12px;
+  }
+  .cal-section td, .cal-section th {
+    height: auto;
+    padding: 8px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+  .cal-section header .navbar-nav > li > a {
+    font-size: 13px;
+  }
+  .cal-section .nav > li > a {
+    padding: 10px;
+  }
+  .cal-section #upper-section, .cal-section #upper-section a {
+    font-size: 15px;
+  }
+  .cal-section .mid-size-font {
+    font-size: 1.1em;
+  }
+  .cal-section .item-step-block.default .item-step-inner {
+    margin-left: -120%;
+  }
+  .cal-section .item-step-block.default.active .item-step-inner {
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cal-section .tab-titles li a {
+    width: 99.6%;
+  }
+  .cal-section .tab-titles li.active-default a {
+    width: 100%;
+  }
+  .cal-section .tab-titles li:first-child a {
+    float: left;
+  }
+  .cal-section .tab-titles li:nth-child(2) a {
+    float: right;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .cal-section #breadcrumb {
+    padding: 2rem 15px;
+  }
+  .cal-section .wpcf7-form > div.frm-sm {
+    width: 30%;
+  }
+  .cal-section .wpcf7-form > div.frm-md {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1300px) {
+  .cal-section body {
+    font-size: 12px;
+  }
+  .cal-section header .navbar-nav > li > a {
+    font-size: 12px;
+    padding: 8px 11px;
+  }
+  .cal-section header .navbar-nav > li > a.SolarHeating img, .cal-section header .navbar-nav > li > a.SolarPower img {
+    width: 96px;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  .cal-section .banner-text {
+    width: 28%;
+  }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .cal-section {
+    /* IE10+ CSS styles go here */
+  }
+  .cal-section header .navbar-nav > li > a.SolarHeating img, .cal-section header .navbar-nav > li > a.SolarPower img {
+    height: 30px;
+    margin-top: 0;
+  }
+  .cal-section .step-arrow {
+    height: 50px;
+  }
+  .cal-section .side-triangle {
+    display: none;
+  }
+  .cal-section .double-side-img > img {
+    width: 100%;
+  }
+  .cal-section .double-side-img-cont .link-btn img {
+    height: 30px;
+  }
+}
+.cal-section ::selection {
+  background: #047d22;
+  color: #FFF;
+  text-shadow: none;
+}
+.cal-section ::-webkit-selection {
+  background: #047d22;
+  color: #FFF;
+  text-shadow: none;
+}
+.cal-section ::-moz-selection {
+  background: #0c6330;
+  color: #FFF;
+  text-shadow: none;
+}
+.cal-section ul.arrow-list {
+  list-style-type: none;
+}
+.cal-section ul.arrow-list li {
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0px 8px 20px;
+  background: url(../images/bullet.png) left no-repeat;
+}
+.cal-section .alignnone {
+  margin: 5px 20px 20px 0;
+}
+.cal-section .aligncenter,
+.cal-section div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.cal-section .alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+.cal-section .alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+.cal-section a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+.cal-section a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+.cal-section a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+.cal-section a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cal-section .wp-caption {
+  background: #FFF;
+  border: 1px solid #F0F0F0;
+  max-width: 96%;
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+.cal-section .wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+.cal-section .wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+.cal-section .wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+.cal-section .wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+.cal-section .wp-caption .wp-caption-text,
+.cal-section .gallery-caption {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}
+@media print {
+  .cal-section * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  .cal-section a,
+  .cal-section a:visited {
+    text-decoration: underline;
+  }
+  .cal-section a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  .cal-section abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  .cal-section .ir a:after,
+  .cal-section a[href^="javascript:"]:after,
+  .cal-section a[href^="#"]:after {
+    content: "";
+  }
+  .cal-section pre, .cal-section blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  .cal-section thead {
+    display: table-header-group;
+  }
+  .cal-section tr, .cal-section img {
+    page-break-inside: avoid;
+  }
+  .cal-section img {
+    max-width: 100% !important;
+  }
+  @page {
+    .cal-section {
+      margin: 0.5cm;
+    }
+  }
+  .cal-section p,
+  .cal-section h2,
+  .cal-section h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  .cal-section h2,
+  .cal-section h3 {
+    page-break-after: avoid;
+  }
+}
+.cal-section .admin-bar header.header {
+  margin-top: 32px;
+}
+.cal-section a.Home span {
+  display: none;
+}
+.cal-section a.Home:before {
+  content: "\f015";
+  font-family: FontAwesome;
+  position: relative;
+  top: -2px;
+}
+.cal-section .footer-info-sec .col-lg-10 {
+  display: flex;
+  justify-content: flex-end;
+}
+.cal-section .footer-info-sec .col-4-flex {
+  padding-left: 40px;
+}
+.cal-section .footer-nav ul {
+  list-style: none;
+}
+.cal-section .footer-nav ul a {
+  line-height: 26px;
+  padding: 0px;
+}
+@media only screen and (max-width: 991px) {
+  .cal-section .footer-info-sec .col-4-flex {
+    padding-left: 0px;
+    padding-bottom: 20px;
+    width: 50%;
+  }
+  .cal-section .footer-info-sec .col-lg-10 {
+    flex-wrap: wrap;
+  }
+  .cal-section .menu-btn {
+    order: 3;
+  }
+  .cal-section #upper-section, .cal-section #upper-section a {
+    text-align: left;
+  }
+  .cal-section #page-slider {
+    margin-top: 60px;
+  }
+}
+.cal-section .pb-30 {
+  padding-bottom: 30px;
+}
+.cal-section .nav.nav-tabs > li > a {
+  padding: 6px 15px;
+}
+.cal-section .testimonial.owl-carousel .owl-item.center img.quote-color, .cal-section .testimonial.owl-carousel .owl-item img.quote-white {
+  display: none;
+}
+.cal-section .testimonial.owl-carousel .owl-item.center img.quote-white {
+  display: block;
+}
+.cal-section .testimonial .center {
+  transition-duration: 0.4s;
+}
+.cal-section .testimonial.owl-carousel .owl-item img.icon {
+  width: 42px;
+  padding: 30px 0px;
+  margin: 0px auto;
+}
+.cal-section .testimonial .card-body {
+  padding: 0px 25px;
+  background-color: #f8f8f8;
+}
+.cal-section .testimonial .center .card-body {
+  background-color: #047d22;
+  color: #fff;
+}
+.cal-section .testimonial .active.center {
+  transform: scale(1.1, 1.14);
+  z-index: 999;
+}
+.cal-section .testimonial .author-wrap {
+  display: flex;
+  align-items: center;
+  padding: 25px 0px 50px;
+}
+.cal-section .testimonial .author-wrap .author {
+  width: 80px;
+  min-width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-right: 15px;
+}
+.cal-section .testimonial .author-desc p {
+  margin: 0px;
+  color: #047d22;
+}
+.cal-section .testimonial .center .author-desc p {
+  color: #fff;
+}
+.cal-section .residential-testimonial.owl-carousel .owl-stage-outer {
+  padding: 130px 0px;
+}
+.cal-section .owl-carousel .owl-nav button.owl-next, .cal-section .owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 100px;
+  color: #FDCE36;
+  font-weight: bold;
+  outline: none;
+}
+.cal-section .owl-carousel .owl-nav button.owl-next {
+  right: -5%;
+}
+.cal-section .owl-carousel .owl-nav button.owl-prev {
+  left: -5%;
+}
+.cal-section .commercial-testimonial {
+  background-color: #FAFAFA;
+  padding: 50px 80px;
+  margin: 70px 0px;
+}
+.cal-section .commercial-testimonial.owl-carousel .owl-item img {
+  max-width: fit-content;
+}
+.cal-section .commercial-testimonial.owl-carousel .owl-item img.icon {
+  margin: initial;
+  width: 60px;
+}
+.cal-section .owl-carousel .owl-nav button.owl-next {
+  background-image: url("../images/right-arrow-yellow.png");
+  background-position: center;
+  width: 36px;
+  height: 36px;
+  float: left;
+  background-repeat: no-repeat;
+}
+.cal-section .owl-carousel .owl-nav button.owl-prev {
+  background-image: url("../images/left-arrow-yellow.png");
+  background-position: center;
+  width: 36px;
+  height: 36px;
+  float: right;
+  background-repeat: no-repeat;
+}
+.cal-section .owl-carousel .owl-nav button.owl-next span, .cal-section .owl-carousel .owl-nav button.owl-prev span {
+  display: none;
+}
+.cal-section .commercial-testimonial p {
+  font-size: 22px;
+  padding-right: 90px;
+}
+.cal-section .commercial-testimonial .card_text {
+  margin-bottom: 40px;
+}
+.cal-section .commercial-testimonial p:not(.card_text) {
+  color: #047d22;
+}
+.cal-section .resident_clc .col-sm-4 span, .cal-section .resident_clc .col-md-12.emc span {
+  font-size: 22px;
+  color: #047d22;
+  font-weight: bold;
+}
+.cal-section .resident_clc .col-sm-4 p, .cal-section .resident_clc .col-md-12.emc p {
+  font-size: 13px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+.cal-section .resident_clc .wpcf7-form select, .cal-section .resident_clc .wpcf7-form input, .cal-section .resident_clc .wpcf7-form textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px #047d22 solid;
+  outline: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+.cal-section .resident_clc .wpcf7-form select {
+  padding-bottom: 6px;
+}
+.cal-section .resident_clc .wpcf7-form textarea {
+  height: 4rem;
+}
+.cal-section .resident_clc .wpcf7-form-control.wpcf7-submit {
+  background-color: #047d22;
+  margin: 3rem auto;
+}
+.cal-section .about-sec {
+  padding: 20px 0px;
+}
+.cal-section .about-sec .content-block-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cal-section .about-sec .break {
+  flex-basis: 100%;
+  width: 0;
+}
+.cal-section .about-sec .brand_logo_carousel img {
+  margin: 20px 0px;
+}
+.cal-section .about-sec .brand_logo_carousel img {
+  padding: 15px;
+}
+.cal-section .about .cont-title {
+  text-align: center;
+}
+.cal-section .post-thumbnail {
+  padding-left: 0px;
+}
+.cal-section .post-thumbnail img {
+  position: absolute;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.cal-section .post-listing {
+  display: flex;
+  background-color: #f8f8f8;
+  margin-bottom: 40px;
+}
+.cal-section .post-listing h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0px;
+  line-height: 24px;
+  text-transform: initial;
+}
+.cal-section .post-listing h3 a, .cal-section .post-listing h3 a:hover {
+  color: #047d22;
+  text-decoration: none;
+}
+.cal-section .post-content {
+  padding: 30px;
+}
+.cal-section .meta-post {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+}
+.cal-section .meta-post .fa {
+  font-size: 22px;
+  color: #047d22;
+  padding-right: 8px;
+}
+.cal-section .excerpt {
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+.cal-section .btn-transparent.read-more {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #047d22;
+  float: right;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.cal-section .btn-transparent.read-more:hover {
+  opacity: 0.8;
+}
+.cal-section .btn-transparent.read-more .fa {
+  font-weight: normal;
+  padding-left: 40px;
+}
+.cal-section .meta-post-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px;
+}
+.cal-section .search {
+  position: relative;
+}
+.cal-section .search-input {
+  background: #f8f8f8;
+  display: block;
+  width: calc(100% - 70px);
+  border: none;
+  font-size: 20px;
+  margin: 20px 0px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 0px 20px 0px 50px;
+  outline: none;
+}
+.cal-section .search-input:focus {
+  border: none;
+}
+.cal-section .search-submit {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  color: #fccf34;
+  outline: none;
+  font-size: 20px;
+}
+.cal-section .cat-filter select {
+  border: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  float: right;
+  color: #047d22;
+  outline: none;
+}
+.cal-section .cat-filter select option {
+  font-size: 16px;
+}
+.cal-section .d-flex {
+  display: flex;
+  align-items: center;
+}
+.cal-section .m-40 {
+  padding: 30px 0px 40px;
+}
+.cal-section .recent-article h4 {
+  text-transform: inherit;
+  margin: 30px 0px 20px;
+  line-height: normal;
+  font-size: 18px;
+}
+.cal-section .recent-article h4 a {
+  color: #047d22;
+}
+.cal-section .recent-article .excerpt {
+  margin-bottom: 90px;
+}
+.cal-section .recent-article .meta-post {
+  font-size: 16px;
+  padding-left: 3px;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 20px;
+}
+.cal-section .recent-article .meta-post .fa {
+  font-size: 18px;
+}
+.cal-section .recent-article .meta-post li:last-child {
+  display: none;
+}
+.cal-section .recent-article .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.cal-section .recent-article .card:hover .btn-transparent.read-more .fa {
+  padding-left: 5px;
+  font-size: 18px;
+}
+.cal-section .recent-article .card-body {
+  min-height: 210px;
+  padding-left: 2px;
+}
+.cal-section .recent-article.owl-carousel .owl-stage {
+  display: flex;
+  padding: 60px 0px;
+}
+.cal-section .time {
+  color: #047d22;
+  display: flex;
+  align-items: center;
+}
+.cal-section .time .fa, .cal-section .share .fa {
+  padding-right: 10px;
+  font-size: 28px;
+  color: #047d22;
+}
+.cal-section .share {
+  position: relative;
+}
+.cal-section .share .heateor_sss_svg svg circle, .cal-section .share .heateor_sss_more .heateor_sss_svg {
+  background: transparent !important;
+  fill: transparent !important;
+}
+.cal-section .share .heateor_sss_svg svg path {
+  stroke: transparent !important;
+}
+.cal-section .share .heateor_sss_sharing_ul li, .cal-section .share .heateor_sss_sharing_ul a {
+  display: none !important;
+}
+.cal-section .share .heateor_sss_sharing_ul li:last-child, .cal-section .share .heateor_sss_sharing_ul a:last-child {
+  position: absolute;
+  top: 0;
+  display: block !important;
+}
+.cal-section .single-post .post-content p {
+  margin-bottom: 20px;
+}
+.cal-section .single-post-meta .meta-post {
+  margin: 0px;
+  color: #047d22;
+  font-size: 20px;
+}
+.cal-section .single-post-meta .meta-post .fa {
+  font-size: 24px;
+}
+.cal-section .single-post-meta .time {
+  padding: 0px 65px;
+}
+.cal-section .prev-post {
+  font-size: 28px;
+  position: absolute;
+  left: -28px;
+}
+.cal-section .prev-post a {
+  color: #047d22;
+}
+.cal-section .header_banner {
+  background-size: cover;
+  background-position: center;
+  margin-top: 60px;
+}
+.cal-section .header_content {
+  min-height: 270px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+}
+.cal-section .header_content h1 {
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 58px;
+}
+.cal-section .header_content p {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 10px;
+}
+.cal-section .power {
+  width: 100%;
+  border-radius: 30px;
+  background: #fff;
+  border: 1px #c3bdbd solid;
+  max-width: 92%;
+  margin: 20px auto 20px auto;
+  float: none;
+}
+.cal-section .power.ui-slider-horizontal .ui-slider-range-min {
+  background-color: #fcce35;
+  border-radius: 30px;
+}
+.cal-section .power.ui-slider-horizontal .ui-slider-handle {
+  background-color: #fcce35;
+  width: auto;
+  min-width: 50px;
+  top: -10px;
+  font-weight: bold;
+  outline: none;
+  color: #047d22;
+  align-items: center;
+  display: flex;
+  padding: 15px 8px;
+  text-align: center;
+  margin-left: -20px;
+  white-space: nowrap;
+}
+.cal-section .power_slide_wrap {
+  display: flex;
+  align-items: center;
+  margin: 40px 0px -5px;
+}
+@media only screen and (min-width: 577px) {
+  .cal-section .recent-article .card:hover .overlay {
+    opacity: 0.9;
+    background-color: #047d22;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .cal-section .recent-article .card:hover h4 a {
+    color: #fff;
+  }
+  .cal-section .recent-article .card:hover img {
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -999;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .cal-section .recent-article .card:hover .card-body {
+    color: #fff;
+  }
+  .cal-section .recent-article .card:hover .card-body {
+    padding: 25px;
+    z-index: 999;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .cal-section .recent-article .card:hover .card-body h4, .cal-section .recent-article .card:hover .meta-post .fa, .cal-section .recent-article .card:hover .meta-post {
+    color: #fff;
+  }
+  .cal-section .recent-article .card:hover .meta-post {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .cal-section .recent-article .card:hover .meta-post li:last-child {
+    display: block;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .cal-section .recent-article .card:hover .btn-transparent.read-more {
+    font-weight: normal;
+    color: #fff;
+    font-size: 16px;
+  }
+  .cal-section .recent-article .card:hover .btn-transparent.read-more .fa {
+    padding-left: 5px;
+    font-size: 18px;
+  }
+  .cal-section .recent-article .card:hover p {
+    padding-top: 40px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .cal-section .p-sm-0 {
+    padding: 0px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .cal-section .single-header {
+    max-height: 350px;
+  }
+  .cal-section .single-header img {
+    object-fit: cover;
+    object-position: center;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .cal-section .resident_clc .col-sm-4 span {
+    font-size: 30px;
+  }
+  .cal-section header .navbar-nav > li > a {
+    font-size: 16px;
+    padding: 8px 18px;
+  }
+}
+@media only screen and (max-width: 1320px) {
+  .cal-section .testimonial, .cal-section .recent-article {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .cal-section .commercial-testimonial {
+    margin-bottom: 70px;
+    margin-top: 70px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1050px) {
+  .cal-section header .navbar-nav > li > a {
+    padding: 8px 10px;
+  }
+  .cal-section #upper-section a {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .cal-section .footer-info-sec > div.footer-logo {
+    padding-bottom: 5px;
+  }
+  .cal-section .single-post .cus-heading {
+    max-width: 90%;
+    margin: 0px auto;
+  }
+  .cal-section .single-post-meta .time {
+    padding: 0px 30px;
+  }
+  .cal-section .single-post-meta .meta-post {
+    font-size: 16px;
+  }
+  .cal-section .single-post-meta .meta-post .fa {
+    font-size: 24px;
+  }
+  .cal-section .testimonial .author-wrap {
+    justify-content: center;
+  }
+  .cal-section .testimonial .active.center {
+    transform: none;
+  }
+  .cal-section .residential-testimonial.owl-carousel .owl-stage-outer {
+    padding: 40px 0px;
+  }
+  .cal-section #residential-testimonial {
+    padding-top: 50px;
+  }
+  .cal-section #menu-header-menu-1 {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cal-section .footer-logo {
+    display: none;
+  }
+  .cal-section .owl-carousel .owl-nav button.owl-prev {
+    left: 2px !important;
+  }
+  .cal-section .owl-carousel .owl-nav button.owl-next {
+    right: 2px !important;
+  }
+  .cal-section .brand_logo_carousel.owl-carousel .owl-nav button.owl-prev {
+    left: 10px !important;
+  }
+  .cal-section .brand_logo_carousel.owl-carousel .owl-nav button.owl-next {
+    right: 10px !important;
+  }
+  .cal-section .testimonial {
+    width: 100%;
+  }
+  .cal-section footer, .cal-section .footer-inner-wrapper > div, .cal-section .footer-bottom {
+    text-align: center;
+  }
+  .cal-section .footer-info-sec > div.footer-logo {
+    padding-bottom: 20px;
+  }
+  .cal-section .footer-info-sec > div {
+    padding: 4rem 15px 2rem;
+  }
+  .cal-section footer .flex-holder {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+  }
+  .cal-section footer .col-4-flex {
+    float: none;
+    margin: 0 auto;
+    display: table;
+  }
+  .cal-section .footer-info-sec .col-lg-10 {
+    display: block;
+  }
+  .cal-section .footer-info-sec .col-4-flex {
+    width: 100%;
+  }
+  .cal-section .xs-text-center {
+    text-align: center;
+  }
+  .cal-section .header_content h1 {
+    font-size: 34px;
+  }
+  .cal-section .header_content {
+    width: 100%;
+    max-width: 90%;
+    text-align: center;
+  }
+  .cal-section .post-listing {
+    display: block;
+  }
+  .cal-section .post-thumbnail img {
+    position: relative;
+    object-fit: none;
+  }
+  .cal-section .post-thumbnail {
+    padding-left: 15px;
+  }
+  .cal-section .about .text-hloder p {
+    padding: 0px 15px;
+  }
+  .cal-section .mission, .cal-section .vision {
+    flex-direction: column;
+  }
+  .cal-section .mission .icon-col img, .cal-section .vision .icon-col img {
+    margin-right: 0px;
+  }
+  .cal-section .mission h3, .cal-section .vision h3 {
+    margin: 20px 0px;
+  }
+  .cal-section .founder {
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .cal-section .founder img {
+    margin: 0px auto;
+    padding-bottom: 20px;
+  }
+  .cal-section .about-sec .brand_logo_carousel img {
+    width: auto;
+    margin: 0px auto;
+    margin-top: 20px;
+  }
+  .cal-section .about-sec {
+    float: left;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .cal-section {
+    /*#page-slider{top: 60px;}*/
+  }
+  .cal-section .commercial-testimonial p {
+    font-size: 18px;
+  }
+  .cal-section .search-submit {
+    left: 10px;
+  }
+  .cal-section .icon-arrow-right-white {
+    background-image: url("../images/arrow-right.png") !important;
+    width: 16px !important;
+    margin-left: 10px !important;
+  }
+  .cal-section .power {
+    max-width: 80%;
+  }
+  .cal-section .single-post-meta .meta-post {
+    padding: 0px 25px;
+  }
+  .cal-section .prev-post {
+    position: static;
+  }
+  .cal-section .single-post-meta {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .cal-section .single-post .row.d-flex.m-40 {
+    flex-direction: column;
+  }
+  .cal-section .single-post .time {
+    display: none;
+  }
+  .cal-section .post-content {
+    padding: 30px 5px;
+  }
+  .cal-section .recent-article .meta-post .fa {
+    padding-left: 5px;
+  }
+  .cal-section .recent-article .meta-post li:last-child {
+    display: block;
+  }
+  .cal-section .recent-article .card .meta-post {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  .cal-section .recent-article.owl-carousel .owl-nav button.owl-prev {
+    left: -26px !important;
+    height: 28px;
+  }
+  .cal-section .recent-article.owl-carousel .owl-nav button.owl-next {
+    right: -26px !important;
+    height: 28px;
+  }
+  .cal-section .about-sec .content-block-row {
+    display: block;
+  }
+  .cal-section .about-sec .item {
+    text-align: center;
+  }
+  .cal-section .testimonial .author-wrap .author {
+    margin: 0px auto;
+    margin-bottom: 15px;
+  }
+  .cal-section .testimonial .author-wrap {
+    display: block;
+  }
+  .cal-section .commercial-testimonial {
+    padding: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .cal-section .commercial-testimonial p {
+    padding-right: 0px;
+  }
+  .cal-section .owl-carousel .owl-nav button.owl-next, .cal-section .owl-carousel .owl-nav button.owl-prev {
+    height: 30px;
+  }
+}
+.cal-section .visible-mobile, .cal-section .visible-medium-desktop, .cal-section .visible-large-desktop {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .cal-section .visible-mobile {
+    display: block;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1300px) {
+  .cal-section .visible-medium-desktop {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1301px) {
+  .cal-section .visible-large-desktop {
+    display: block;
+  }
+}
+.cal-section .icon-arrow-right {
+  background-image: url("../images/arrow-right.png");
+  background-position: right;
+  width: 22px;
+  height: 16px;
+  float: right;
+  margin-left: 28px;
+  left: 0px;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.cal-section .btn-transparent.read-more:hover .icon-arrow-right {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  left: 5px;
+}
+.cal-section .icon-arrow-right-white {
+  background-image: url("../images/right-arrow-white.png");
+  background-position: right;
+  width: 20px;
+  height: 14px;
+  float: right;
+  margin-left: 6px;
+  position: relative;
+  left: 0px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.cal-section .btn-transparent.read-more:hover .icon-arrow-right-white {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  left: 3px;
+}
+.cal-section .solar-power .sec-two {
+  text-align: center;
+}
+.cal-section .solar-power .sec-two .sec-heading-wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.cal-section .solar-power .sec-two p {
+  color: #595858;
+}
+.cal-section .solar-power .sec-two h2 {
+  margin-bottom: 25px;
+  margin-top: 0px;
+}
+.cal-section .solar-power .sec-3 {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.cal-section .solar-power .sec-3 h2 {
+  margin-bottom: 80px;
+  margin-top: 0px;
+}
+.cal-section .solar-power .sec-4 h2 {
+  margin: 0px;
+}
+.cal-section .solar-power .sec-4 ul {
+  padding-left: 30px;
+}
+.cal-section .solar-power .sec-4 ul li {
+  margin-top: 20px;
+  color: #595858;
+}
+.cal-section .grid_carousel .owl-item {
+  background: #D7D7D7;
+  padding: 20px;
+  color: #595858;
+  padding-bottom: 70px;
+}
+.cal-section .grid_carousel .owl-stage {
+  display: flex;
+}
+.cal-section .grid_carousel .owl-item p {
+  padding-left: 15px;
+}
+.cal-section .grid_carousel .owl-item img {
+  padding: 40px 0px;
+}
+.cal-section .grid_carousel ul, .cal-section .sec-4 ul li, .cal-section .flex_grid .right ul li {
+  list-style: none;
+}
+.cal-section .grid_carousel ul li {
+  margin-top: 20px;
+}
+.cal-section .grid_carousel ul li::before, .cal-section .sec-4 ul li::before, .cal-section .flex_grid .right ul li:before {
+  content: "•";
+  color: #047d22;
+  font-weight: bold;
+  display: inline-block;
+  width: 25px;
+  margin-left: -25px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 0px;
+  position: relative;
+  top: 2px;
+}
+.cal-section .solar-power .sec-4 {
+  padding: 20px;
+  padding-bottom: 70px;
+}
+.cal-section .sec-4 ul li::before {
+  width: 40px;
+  margin-left: -40px;
+}
+.cal-section .flex_grid .row {
+  display: flex;
+  margin: 0px;
+}
+.cal-section .sma-inverter {
+  margin-bottom: 50px;
+}
+.cal-section .flex_grid .left {
+  background: #047d22;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  min-height: 570px;
+  justify-content: center;
+}
+.cal-section .flex_grid.battery_slider .left, .cal-section .flex_grid.battery_slider .right {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+.cal-section .flex_grid.hybrid_inverter .left, .cal-section .flex_grid.hybrid_inverter .right {
+  min-height: 480px;
+}
+.cal-section .flex_grid.battery_slider {
+  padding-bottom: 3.8em;
+}
+.cal-section .flex_grid .right ul.icon-list li p {
+  font-size: 14px;
+  line-height: 1.2;
+  color: #047d22;
+  font-family: "Roboto";
+  padding: 10px 0px;
+}
+.cal-section .flex_grid .left .product img {
+  max-width: 70%;
+  padding-right: 15px;
+  float: right;
+}
+.cal-section .flex_grid .right {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #d7d7d7;
+  width: 70%;
+  min-height: 570px;
+}
+.cal-section .flex_grid .right h4 {
+  color: #047d22;
+  font-weight: 600;
+}
+.cal-section .flex_grid .right ul {
+  padding-left: 0px;
+  color: #595858;
+}
+.cal-section .flex_grid .right ul.icon-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: -20px;
+}
+.cal-section .flex_grid .right ul.icon-list li .icon img {
+  width: 60px;
+  margin: 0px auto;
+}
+.cal-section .flex_grid .right ul.icon-list li {
+  float: left;
+  min-width: 105px;
+  max-width: 105px;
+  text-align: center;
+  margin: 0px 5px;
+}
+@media screen and (min-width: 767px) {
+  .cal-section .flex_grid.hybrid_inverter .right ul.icon-list li {
+    margin: 0px 10px;
+  }
+}
+.cal-section .flex_grid .right ul.icon-list li:before {
+  content: none;
+}
+.cal-section .inverter-description-carousel.owl-carousel .owl-nav button.owl-prev {
+  left: 2%;
+  top: 45%;
+  transform: translateY(-45%);
+}
+.cal-section .inverter-description-carousel.owl-carousel .owl-nav button.owl-next {
+  right: 2%;
+  top: 45%;
+  transform: translateY(-45%);
+}
+.cal-section .inverter_slider h2 {
+  padding-top: 50px;
+}
+.cal-section .solar-power .sec-4 .img-block img {
+  max-width: 600px;
+}
+@media (min-width: 1600px) {
+  .cal-section .flex_grid .left {
+    padding: 100px 15px 60px 7%;
+  }
+}
+.cal-section .two-col-row.monitoring {
+  width: 95%;
+}
+.cal-section .monitoring .two-col-parent > div.flex-container:nth-child(2) {
+  background: #047d22;
+}
+.cal-section .monitoring.two-col-row .img-block {
+  margin-bottom: -3px;
+  margin-left: -10px;
+}
+.cal-section .monitoring.two-col-row .img-block img {
+  max-width: 600px;
+  padding-top: 65px;
+}
+.cal-section .monitoring h1 {
+  margin-bottom: 0px;
+}
+.cal-section .monitoring h3 {
+  font-weight: 200;
+  margin-top: 6px;
+  margin-bottom: 50px;
+  color: #595858;
+  text-transform: inherit;
+}
+.cal-section .monitoring .flex-list img {
+  width: 36px;
+}
+.cal-section .monitoring .flex-list {
+  margin: 0 0 2rem;
+}
+.cal-section .other_components {
+  width: 100%;
+  background: #d7d7d7;
+  float: left;
+  margin-top: 60px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin-left: 0px;
+}
+.cal-section .other_components .grid_carousel {
+  margin-left: 8%;
+  width: 84%;
+}
+.cal-section .other_components .grid_carousel .owl-item img {
+  padding: 20px 0px;
+  max-width: 250px;
+  margin: 0px auto;
+}
+.cal-section .other_components .card-body {
+  text-align: center;
+}
+.cal-section .other_components .grid_carousel .owl-item {
+  padding: 30px;
+  margin-top: 25px;
+}
+.cal-section .sma-inverter h2 {
+  padding: 60px 0px;
+}
+.cal-section #sync1 .item {
+  padding: 55px 0px;
+  margin: 5px;
+  display: flex;
+}
+.cal-section #inverter_sync1 .item, .cal-section #hybrid_inverter_sync1 .item, .cal-section #battery_sync1 .item {
+  padding-top: 8px;
+}
+.cal-section .inverter-logo-carousel.owl-carousel .owl-item:last-child .item {
+  margin-right: 0px !important;
+  margin-left: 2px !important;
+}
+.cal-section #sync2 .item img {
+  margin: 0px auto;
+  width: 200px;
+}
+.cal-section #inverter_sync2 .item img, .cal-section #hybrid_inverter_sync2 .item img, .cal-section #battery_sync2 .item img {
+  width: auto;
+  height: 45px;
+  margin: 0px auto;
+}
+.cal-section #sync2 .item, .cal-section #inverter_sync2 .item, .cal-section #hybrid_inverter_sync2 .item, .cal-section #battery_sync2 .item {
+  padding: 20px 0px;
+  margin: 2px;
+  text-align: center;
+  cursor: pointer;
+  border-bottom: 6px #d7d7d7 solid;
+}
+.cal-section #inverter_sync2 .item, .cal-section #hybrid_inverter_sync2 .item, .cal-section #battery_sync2 .item {
+  border-bottom: 10px #d7d7d7 solid;
+  margin-left: 0px;
+}
+.cal-section #sync2 .item h1, .cal-section #inverter_sync2 .item h1, .cal-section #hybrid_inverter_sync2 .item h1, .cal-section #battery_sync2 .item h1 {
+  font-size: 18px;
+}
+.cal-section #sync2 .current .item {
+  border-bottom: 6px #047d22 solid;
+}
+.cal-section #inverter_sync2 .current .item, .cal-section #hybrid_inverter_sync2 .current .item, .cal-section #battery_sync2 .current .item {
+  border-bottom: 10px #047d22 solid;
+}
+.cal-section #sync1.owl-theme, .cal-section #inverter_sync1.owl-theme, .cal-section #hybrid_inverter_sync1.owl-theme, .cal-section #battery_sync1.owl-theme {
+  position: relative;
+  max-width: 90%;
+  margin: 0px auto;
+}
+.cal-section #inverter_sync1.owl-theme, .cal-section #hybrid_inverter_sync1.owl-theme, .cal-section #battery_sync1.owl-theme {
+  max-width: 100%;
+}
+.cal-section .panels h2 {
+  padding: 30px 0px;
+}
+.cal-section .statistics {
+  padding-right: 30px;
+  max-width: 300px;
+}
+.cal-section .content-1 {
+  padding-top: 10px;
+}
+.cal-section .content-1 ul li::marker {
+  color: #047d22;
+}
+.cal-section .content-2 table {
+  margin: 60px 0px 50px;
+  font-size: 16px;
+  float: left;
+}
+.cal-section .content-2 table td {
+  padding: 0px;
+  padding-right: 15px;
+  height: 30px;
+}
+.cal-section #menu-header-menu-1 li {
+  font-size: inherit;
+}
+@media (max-width: 1400px) {
+  .cal-section .monitoring.two-col-row .img-block img {
+    max-width: 430px;
+  }
+}
+@media (max-width: 767px) {
+  .cal-section {
+    /*.flex_grid .left, .flex_grid .right{
+      min-height: 1050px !important;
+    }
+    .owl-carousel .owl-stage-outer{
+      max-height: 1280px;
+    }*/
+  }
+  .cal-section .solar-power .sec-two p {
+    line-height: normal;
+  }
+  .cal-section .solar-power .sec-two {
+    padding: 0px;
+  }
+  .cal-section .solar-power .sec-two .sec-heading-wrapper, .cal-section .solar-power .sec-3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .cal-section .solar-power .sec-3 h2 {
+    padding-bottom: 0;
+    margin-bottom: 50px;
+  }
+  .cal-section .grid_carousel .owl-item {
+    margin: 0px 55px 0px 30px !important;
+  }
+  .cal-section .other_components .grid_carousel .owl-item {
+    margin: 0px 40px 0px 20px !important;
+  }
+  .cal-section .solar-power .sec-4 h2 {
+    padding-bottom: 40px;
+  }
+  .cal-section .solar-power .sec-4 ul {
+    padding-left: 30px !important;
+  }
+  .cal-section .flex_grid .left .product img {
+    position: static;
+    max-width: 100%;
+  }
+  .cal-section .flex_grid .right {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .cal-section .flex_grid .right img {
+    max-width: 100% !important;
+  }
+  .cal-section .flex_grid .right .row {
+    display: block;
+  }
+  .cal-section .flex_grid .left ul li p {
+    font-size: 9px;
+  }
+  .cal-section .flex_grid .right ul.icon-list li {
+    min-width: 50%;
+    max-width: 50%;
+    margin: 0px;
+  }
+  .cal-section .flex_grid .left .product img {
+    padding-right: 0px;
+  }
+  .cal-section .two-col-row.monitoring {
+    width: 100%;
+  }
+  .cal-section .monitoring .two-col-parent > div.flex-container:nth-child(2) {
+    margin-right: -30px;
+  }
+  .cal-section .other_components .grid_carousel {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cal-section .grid_carousel .owl-item {
+    margin: 0px 85px 0px 58px !important;
+  }
+  .cal-section .panels .owl-carousel .owl-nav button.owl-next {
+    right: -5% !important;
+  }
+  .cal-section .panels .owl-carousel .owl-nav button.owl-prev {
+    left: -5% !important;
+  }
+  .cal-section .flex_grid .left .product img {
+    position: static;
+    max-width: 100%;
+  }
+  .cal-section .flex_grid .right {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .cal-section .flex_grid .right .col-md-6 {
+    max-width: 50%;
+  }
+  .cal-section .monitoring .two-col-parent > div.flex-container:nth-child(2) {
+    margin-right: -20%;
+  }
+}
+.cal-section .solar-img p {
+  text-align: center;
+  color: #000;
+}
+.cal-section .deep-blue-logo {
+  max-width: 150px;
+  margin: 0px auto;
+}
+@media (max-width: 767px) {
+  .cal-section #sync1 .item {
+    display: block;
+  }
+  .cal-section .solar-img {
+    width: 50%;
+    float: left;
+  }
+  .cal-section .statistics {
+    padding-right: 0;
+    max-width: 50%;
+    width: 50%;
+    float: left;
+  }
+  .cal-section .content-1 {
+    width: 100%;
+    float: right;
+  }
+  .cal-section .content-2 table {
+    margin: 5px 0px 20px;
+  }
+  .cal-section .sma-inverter h2 {
+    padding: 20px 0px 30px;
+  }
+  .cal-section .sec-3 .owl-carousel .owl-nav button.owl-next {
+    right: -2% !important;
+  }
+  .cal-section .sec-3 .owl-carousel .owl-nav button.owl-prev {
+    left: -2% !important;
+  }
+  .cal-section .panels .owl-carousel .owl-nav button.owl-next {
+    right: -7% !important;
+  }
+  .cal-section .panels .owl-carousel .owl-nav button.owl-prev {
+    left: -7% !important;
+  }
+  .cal-section #sync1 .item {
+    padding: 20px 0px;
+  }
+  .cal-section .content-2 table td {
+    font-size: 14px;
+  }
+  .cal-section .flex_grid .right h4 {
+    font-size: 16px;
+  }
+  .cal-section .grid_carousel .owl-item p {
+    text-align: left !important;
+  }
+  .cal-section .grid_carousel .owl-item {
+    margin: 0px 50px 0px 22px !important;
+  }
+}
+@media (min-width: 1140px) {
+  .cal-section .img-icon-block img {
+    max-width: 80%;
+  }
+}
+@media (max-width: 420px) {
+  .cal-section .banner-lg-text {
+    font-size: 2em;
+  }
+  .cal-section .banner-text .banner-lg-text br {
+    display: none;
+  }
+}
+@media (max-width: 305px) {
+  .cal-section {
+    /*.flex_grid .left, .flex_grid .right{
+      min-height: 1400px !important;
+    }
+    .owl-carousel .owl-stage-outer {
+      max-height: 1400px;
+    }*/
+  }
+  .cal-section .banner-lg-text {
+    font-size: 1.5em;
+  }
+  .cal-section .brand_logo_carousel.owl-carousel .owl-nav button.owl-prev {
+    left: 0px !important;
+  }
+  .cal-section .brand_logo_carousel.owl-carousel .owl-nav button.owl-next {
+    right: 0px !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
